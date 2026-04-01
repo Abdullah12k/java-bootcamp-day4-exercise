@@ -19,7 +19,7 @@ public class Main {
         }
 
         //Q2
-        System.out.println("please enter your name: ");
+        System.out.println("please enter a word: ");
         String name = input.nextLine();
         for (int i = name.length() - 1; i >= 0; i--) {
             char a = name.charAt(i);
